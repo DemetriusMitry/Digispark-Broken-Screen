@@ -14,13 +14,13 @@ void loop() {
   DigiKeyboardPtBr.print("https://www.youtube.com/watch?v=uKisdcdVRl8&t=181s&ab_channel=ManuChaoManuChaoCanaloficialdoartista");
   DigiKeyboardPtBr.sendKeyStroke(KEY_ENTER);
   DigiKeyboardPtBr.delay(2000);
+  // o comando abaixo é para o script apertar tab até conseguir chegar na tela
   DigiKeyboardPtBr.sendKeyStroke(0x2b);
   DigiKeyboardPtBr.sendKeyStroke(0x2b);
   DigiKeyboardPtBr.sendKeyStroke(0x2b);
   DigiKeyboardPtBr.sendKeyStroke(0x2b);
   DigiKeyboardPtBr.sendKeyStroke(0x2b);
-  DigiKeyboardPtBr.sendKeyStroke(KEY_F);
-  DigiKeyboardPtBr.sendKeyStroke(KEY_F);
+  // a letra F no youtube habilita full screen
   DigiKeyboardPtBr.sendKeyStroke(KEY_F);
   
   digitalWrite(1, LOW);
